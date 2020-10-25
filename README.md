@@ -23,7 +23,7 @@ The motivation behind making this app comes from the observation that there is a
 
 The first version of the app focuses on providing three main pieces of functionality:
 
-1). Spot saving: First and foremost, the user must be able to capture and save spots in the app. A spot consists of a spot name, location (geographical coordinates), rating (0-5 stars), description, and media (photos and video).
+1). Spot saving: First and foremost, the user must be able to capture and save spots in the app. A spot consists of a spot name, location (geographical coordinates), rating (0-5 stars), category, description, and media (photos and video).
 
 ![create_spot_current_location](Documentation/VideoDemos/MapOnBoarding/create_spot_current_location/create_spot_current_location.gif)
 
