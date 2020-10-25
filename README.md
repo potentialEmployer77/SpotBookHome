@@ -29,7 +29,11 @@ The first version of the app focuses on providing four main pieces of functional
 
 2). Spot searching: As a user's collection of spots grows, it becomes crucial that the user be able to find specific spots in their collection quickly and easily. This functionality is provided via a a search function and an advanced filter. The user can specify a filter criteria (search parameters based on the spot attributes) and find the spot(s) they are interested in viewing. While the filter is set, only those spots that match the filter criteria are shown to the user.
 
-3). Spot sharing: Each spot may be sent to a user's contacts via the "share spot" menu option. Since each spot is saved on the user's device, the spot must first be uploaded to a server and a link to that spot data created and sent to a user's contact via a third-party messaging application. Spot sharing is implemented using Google Firebase services such as Storage, the Realtime Database, Cloud Functions, and Dynamic Links.
+![filter_resize30](Documentation/Images/filter_resize30.jpg)
+
+3). Spot sharing: SpotBook allows users to share spots with each other using their favorite messaging application. Since each spot is saved locally on the user's device, the spot must first be uploaded to a server and a link to that spot data created and sent to a user's contact via a third-party messaging application. Spot sharing is implemented using Google Firebase services such as Storage, the Realtime Database, Cloud Functions, and Dynamic Links. Each spot may be sent to a user's contacts via the "share spot" menu option.
+
+![detail_view_overflow_menu_resize30](Documentation/Images/detail_view_overflow_menu_resize30.jpg)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   
 4). Spot viewing: SpotBook provides several different modes for viewing one's spots:
 
