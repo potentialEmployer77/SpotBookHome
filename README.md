@@ -21,7 +21,7 @@ The motivation behind making this app comes from the observation that there is a
 ## Enter the SpotBook app...
 ![SpotBookLogoDark](Documentation/Images/ic_launcher.png)
 
-The first version of the app focuses on providing three main pieces of functionality:
+The first version of the app focuses on providing four main pieces of functionality:
 
 1). Spot saving: First and foremost, the user must be able to capture and save spots in the app. A spot consists of a spot name, location (geographical coordinates), rating (0-5 stars), category, description, and media (photos and video).
 
@@ -29,24 +29,16 @@ The first version of the app focuses on providing three main pieces of functiona
 
 ![spot_detail_resize50](Documentation/Images/spot_detail_resize50.gif)
 
-2). Spot searching: Likewise, the user will also want to be able to edit (i.e., change name, description, photo, etc.) and delete existing spots.
+2). Spot searching: As a user's collection of spots grows, it becomes crucial that the user be able to find specific spots in their collection quickly and easily. This functionality is provided via a a search function and an advanced filter. The user can specify a filter criteria (search parameters based on the spot attributes) and find the spot(s) they are interested in viewing. While the filter is set, only those spots that match the filter criteria are shown to the user.
 
-3). Spot sharing: There will be two ways for a user to search for and retrieve saved spots:
+3). Spot sharing: Each spot may be sent to a user's contacts via the "share spot" menu option. Since each spot is saved on the user's device, the spot must first be uploaded to a server and a link to that spot data created and sent to a user's contact via a third-party messaging application. Spot sharing is implemented using Google Firebase services such as Storage, the Realtime Database, Cloud Functions, and Dynamic Links.
+  
+4). Spot viewing: SpotBook provides several different modes for viewing one's spots:
 
-  * Quick search: The search bar at the top of the app allows the user to perform a search based on either spot name or location name (i.e., "Brooklyn Banks", "New York City", "Spain").
-  
-  ![MapViewZoomedOut](Documentation/Images/SearchSuggestion_Demo.gif)
-  
-  * Advanced search: Via the sidebar navigation drawer, the user will be able to select Advanced Search to order to further refine the search parameters to consider spot type, radius from a given location, and more.
-  
-4). Spot viewing: There are three viewing modes:
+  * Map view: When in this viewing mode, the user will see a map displaying either all of their spots or the results of a search as highlighted map markers. The map also provides control buttons which allow the user to zoom in/out, zoom into their current location, and open the spot's location in Google Maps (in order to receive directions, etc.). Clicking on a marker pops an info window displaying more info about the spot (spot name, rating, main photo), and clicking the info window brings the user to the spot's detail view.
 
-  * Map view: When in this viewing mode, the user will see a map displaying either all of their saved spots or the results of their search as highlighted map markers. The map also provides control buttons which allow the user to zoom in/out, zoom into their current location, and open the spot's location in Google Maps (in order to receive directions). Clicking on a marker pops an info window displaying more info about the spot (name, description), and clicking the info window brings the user to the spot's detail view.
+  * List view: This viewing mode allows the user to view either all of their spots or the results of a search in scrollable list format. Here, the user can quickly see the name, main photo, rating, and description of their spots. The user has the option to sort/order the list by various criteria including creation date, spot name, rating, and distance to a specified search location. The user can also quickly delete spots from the list by swiping. Clicking on a spot list item takes the user to the spot's detail view, where they can see all the spot's details.
   
-![MapViewZoomedOut](Documentation/Images/MapViewZoomedOut_Screenshot.jpg)
-![MapViewZoomedOut](Documentation/Images/MapViewZoomedIn_Screenshot.jpg)
-![MapViewZoomedOut](Documentation/Images/MapViewInfoWindow_Screenshot.jpg)
-![MapViewZoomedOut](Documentation/Images/MapViewSearchResult_Screenshot.jpg)
-
-  * List view: This viewing mode allows the user to view either all of their saved spots or the results of their search in scrollable list format. Here, the user can quickly see the name, main photo, and description of the spots. There will also be options to sort the list by various factors such as rating, name, distance, etc. Clicking on a spot list item takes the user to the spot's detail view.
-  * Detail view: When in this viewing mode, the user will be able to see all of the spot's details in unabbreviated form. This will include a gallery of photos, video clips, a description, rating, and more.
+  * Grid view: This viewing mode is very similar to the list view as it allows the user to view either all of their spots or the results of a search in scrollable  format. All functionality available in the list view is also available in this view. The only difference is that the spots are shown as cards in a grid instead of as list items in a list.
+  
+  * Detail view: When in this viewing mode, the user will be able to see all of the spot's details in unabbreviated form. This will include a gallery of media (photos and video), the spot name, rating, category, description, address, and location on a map. The user is able to edit a spot's details by clicking on the detail and making the desired change. A separate menu is provided over the media gallery to allow the user to edit, view details of, send, and delete each media item. Buttons are provided in the map that allow the user to see a street view of the spot's location, zoom in/out, and send the location to other Google Maps services. Lastly, from the overflow menu in the top right corner, the user can delete the spot and share the spot. 
