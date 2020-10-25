@@ -27,7 +27,7 @@ The first version of the app focuses on providing three main pieces of functiona
 
 ![create_spot_current_location](Documentation/VideoDemos/MapOnBoarding/create_spot_current_location/create_spot_current_location.gif)
 
-![SpotDetail](Documentation/Images/SpotDetail_resized_26%.gif)
+![spot_detail_resize50](Documentation/Images/spot_detail_resize50.gif)
 
 2). Spot searching: Likewise, the user will also want to be able to edit (i.e., change name, description, photo, etc.) and delete existing spots.
 
