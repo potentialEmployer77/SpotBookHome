@@ -24,7 +24,8 @@ The motivation behind making this app comes from the observation that there is a
 The first version of the app focuses on providing three main pieces of functionality:
 
 1). Spot saving: First and foremost, the user must be able to capture and save spots in the app. A spot consists of a spot name, location (geographical coordinates), rating (0-5 stars), description, and media (photos and video).
-![SpotDetailView](Documentation/Images/ic_launcher.png)
+
+![SpotDetailView](Documentation/VideoDemos/MapOnBoarding/create_spot_current_location/create_spot_current_location.gif)
 
 2). Spot searching: Likewise, the user will also want to be able to edit (i.e., change name, description, photo, etc.) and delete existing spots.
 
