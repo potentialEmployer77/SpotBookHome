@@ -45,4 +45,6 @@ The first version of the app focuses on providing four main pieces of functional
   
   * Grid view: This viewing mode is very similar to the list view as it allows the user to view either all of their spots or the results of a search in scrollable  format. All functionality available in the list view is also available in this view. The only difference is that the spots are shown as cards in a grid instead of as list items in a list.
   
+  ![grid_view_resize30](Documentation/Images/grid_view_resize30.jpg)
+  
   * Detail view: When in this viewing mode, the user will be able to see all of the spot's details in unabbreviated form. This will include a gallery of media (photos and video), the spot name, rating, category, description, address, and location on a map. The user is able to edit a spot's details by clicking on the detail and making the desired change. A separate menu is provided over the media gallery to allow the user to edit, view details of, send, and delete each media item. Buttons are provided in the map that allow the user to see a street view of the spot's location, zoom in/out, and send the location to other Google Maps services. Lastly, from the overflow menu in the top right corner, the user can delete the spot and share the spot. 
