@@ -39,7 +39,7 @@ The first version of the app focuses on providing four main pieces of functional
 
   * List view: This viewing mode allows the user to view either all of their spots or the results of a search in scrollable list format. Here, the user can quickly see the name, main photo, rating, and description of their spots. The user has the option to sort/order the list by various criteria including creation date, spot name, rating, and distance to a specified search location. The user can also quickly delete spots from the list by swiping. Clicking on a spot list item takes the user to the spot's detail view, where they can see all the spot's details.
   
-  ![list_view_resize50](Documentation/Images/list_view_resize50.jpg)
+  ![list_view_resize20](Documentation/Images/list_view_resize20.jpg)
   
   * Grid view: This viewing mode is very similar to the list view as it allows the user to view either all of their spots or the results of a search in scrollable  format. All functionality available in the list view is also available in this view. The only difference is that the spots are shown as cards in a grid instead of as list items in a list.
   
