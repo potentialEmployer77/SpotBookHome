@@ -37,7 +37,7 @@ The first version of the app focuses on providing four main pieces of functional
 
   * Map view: When in this viewing mode, the user will see a map displaying either all of their spots or the results of a search as highlighted map markers. The map also provides control buttons which allow the user to zoom in/out, zoom into their current location, and open the spot's location in Google Maps (in order to receive directions, etc.). Clicking on a marker pops an info window displaying more info about the spot (spot name, rating, main photo), and clicking the info window brings the user to the spot's detail view.
   
-  ![map_view_resize30](Documentation/Images/map_view_resize30.jpg)
+  ![map_view_resize30](Documentation/Images/map_view_resize30.jpg)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![map_view_search_results_resize30](Documentation/Images/map_view_search_results_resize30.jpg)
 
   * List view: This viewing mode allows the user to view either all of their spots or the results of a search in scrollable list format. Here, the user can quickly see the name, main photo, rating, and description of their spots. The user has the option to sort/order the list by various criteria including creation date, spot name, rating, and distance to a specified search location. The user can also quickly delete spots from the list by swiping. Clicking on a spot list item takes the user to the spot's detail view, where they can see all the spot's details.
   
