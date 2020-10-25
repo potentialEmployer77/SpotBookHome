@@ -23,7 +23,7 @@ The motivation behind making this app comes from the observation that there is a
 
 The first version of the app focuses on providing four main pieces of functionality:
 
-1). Spot saving: First and foremost, the user must be able to capture and save spots in the app. A spot consists of a spot name, location (geographical coordinates), rating (0-5 stars), category, description, and media (photos and video).
+1). Spot saving: First and foremost, the user must be able to capture and save spots in the app. A spot consists of a spot name, location (geographical coordinates), rating (0-5 stars), category (flatground, bank, ledge, ramp, etc.), description, and associated media (photos and video).
 
 ![create_spot_current_location](Documentation/VideoDemos/MapOnBoarding/create_spot_current_location/create_spot_current_location.gif)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![create_spot_map_long_press](Documentation/VideoDemos/MapOnBoarding/create_spot_map_long_press/create_spot_map_long_press.gif)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![create_spot_search_result](Documentation/VideoDemos/MapOnBoarding/create_spot_search_result/create_spot_search_result.gif)
 
