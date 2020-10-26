@@ -18,8 +18,8 @@ The motivation behind making this app comes from the observation that there is a
 
  * Too general: General-purpose apps such as Google Maps aren't tailored (or configurable) enough to skateboarding's unique and specific requirements when it comes to saving, searching, and sharing spots. While it is possible to place and save makers and information on a map via these general-purpose map apps, it is often difficult to create collections of spots in a uniform way that would allow a skater to quickly access their saved spots and have all the spot info they want in a just a click or two. As for other special-purpose spot apps, many of these encompass multiple extreme spots and force these (often quite disparate) communities of users to share the same platform. This is nice if you are indeed a jack of all extreme sports, however, from our personal experience, we've seen that many users are really only interested in one sport, and would at least like to have the option of limiting the app to their particular sport of interest.
 
-## Enter the SpotBook app...
-![SpotBookLogoDark](Documentation/Images/ic_launcher.png)
+## Enter the SpotBook app...![SpotBookLogoDark](Documentation/Images/ic_launcher.png)
+
 
 The first version of the app focuses on providing four main pieces of functionality:
 
@@ -31,9 +31,13 @@ The first version of the app focuses on providing four main pieces of functional
 
 ![filter_resize30](Documentation/Images/filter_resize30.jpg)
 
-3). Spot sharing: SpotBook allows users to share spots with each other using their favorite messaging application. Since each spot is saved locally on the user's device, the spot must first be uploaded to a server and a link to that spot data created and sent to a user's contact via a third-party messaging application. Spot sharing is implemented using Google Firebase services such as Storage, the Realtime Database, Cloud Functions, and Dynamic Links. Each spot may be sent to a user's contacts via the "share spot" menu option.
+3). Spot sharing: SpotBook allows users to share spots with each other via their favorite messaging application. Since each spot is saved locally on the user's device, the spot must first be uploaded to a server and a link to that spot data created and sent to a user's contact via a third-party messaging application. When the link is clicked, users with SpotBook installed will have the app open and a new Spot will be created in their private collection with the spot data downloaded from the server. Spot sharing is implemented using Google Firebase services such as Storage, the Realtime Database, Cloud Functions, and Dynamic Links. Each spot may be sent to a user's contacts via the "share spot" menu option.
 
-![detail_view_overflow_menu_resize30](Documentation/Images/detail_view_overflow_menu_resize30.jpg)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+![detail_view_overflow_menu_resize30](Documentation/Images/detail_view_overflow_menu_resize30.jpg)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![share_spot_menu_resize30](Documentation/Images/share_spot_menu_resize30.jpg)
+
+![share_spot_upload_media_resize30](Documentation/Images/share_spot_upload_media_resize30.jpg)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;![share_spot_choose_messaging_app_resize30](Documentation/Images/share_spot_choose_messaging_app_resize30.jpg)
+
+![share_spot_dynamic_link_resize30](Documentation/Images/share_spot_dynamic_link_resize30.jpg)
   
 4). Spot viewing: SpotBook provides several different modes for viewing one's spots:
 
